@@ -10,7 +10,7 @@ class TextInputRow extends Polymer.Element {
           autoValidate="[[pattern]]"
           pattern="[[pattern]]"
           type="[[mode]]"
-          on-change="valueChanged"
+          on-input="valueChanged"
           id="textinput"
           placeholder=""
         ></paper-input>
